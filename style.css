@@ -1,5 +1,5 @@
 :root{
-    --primaryColor: #66BFBF;
+    --primaryColor: #577d86;
     --backgroundColor:#E4F9F5; 
     --myTitleFont:'Dancing Scipt', curive;
     /* --titleFont:'Sacremento', cursive; */
@@ -73,7 +73,7 @@ h3{
 }
 
 .middle-section{
-    width: 75%;
+    width: 60%;
     text-align: center;
     margin: 50px auto 100px auto;
 }
@@ -137,8 +137,7 @@ p{
 
 .btn{
     
-    background: #11cdd4;
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    background: var(--primaryColor);
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
@@ -146,6 +145,31 @@ p{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
+
+.bottom-section{
+    background-color: var(--primaryColor);
+    margin: 0px auto;
+    text-align: center;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social-link{
+    margin: 0px 40px;
+    color: white;
+}
+
+.copyright{
+    margin: 0;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 0.75rem;
+}
+
 
 /* 
 font-family: 'Dancing Script', cursive;
