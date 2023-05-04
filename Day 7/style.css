@@ -1,0 +1,112 @@
+body{
+    background-color: deepskyblue;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.black{
+    background-color: black;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.brown{
+    background-color: brown;
+}
+
+@media screen and (min-width:600px){
+    body{
+    background-color:gold ;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+    body{
+        background-color: burlywood;
+    }
+}
+
+@media screen and (max-width:600px){
+    div{
+        display: block;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .red{
+    background-color: blue;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:668px) {
+    .red{
+    background-color: orange;
+    }
+}
+
+@media screen and (min-width:669px) and (max-width:899px) {
+    .red{
+    background-color: yellow;
+    }
+}
+
+@media screen and (min-width:890px) and (max-width:1050px) {
+    .red{
+    background-color: brown;
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .red{
+    background-color: pink;
+    }
+}
+
+/* @media screen and (prefers-color-scheme:dark){
+    body{
+        background-color: blueviolet;
+    }
+    .red,.orange,.green{
+        background-color: cadetblue;
+    }
+}*/
+
+@media (orientation: portrait){
+    body{
+        background-color: whitesmoke;
+    }
+}
