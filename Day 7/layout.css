@@ -35,12 +35,14 @@ body{
 }
 
 .blue{
-    height: 280px;
+    height: 500px;
     background-color: blue;
+    flex-grow: 3;
 }
 
 .orange{
     background-color: orange;
+    order: 1;
 }
 
 .black{
@@ -49,10 +51,12 @@ body{
 
 .indigo{
     background-color: indigo;
+    flex-grow: 2;
 }
 
 .purple{
     background-color: purple;
+    order: 3;
 }
 
 .cyan{
@@ -61,5 +65,6 @@ body{
 
 .brown{
     background-color: brown;
+    order: 4;
 }
 
