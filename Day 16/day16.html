@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Introduction</title>
+</head>
+<body>
+
+    <!--Inline JS-->
+    <p onclick="alert('wow')">Hi</p>
+
+    <!--Internal JS-->
+    <script>
+       // alert('its an internal JS code')
+       function KonsaWala(val){
+            console.log(val + val)
+       }
+    </script>
+    <p onclick="KonsaWala('koiValue')">Internal ko call karega</p>
+
+    <!--External JS-->
+    <p onclick="doSomething(7)">Ye Baahar se kaam karega</p>
+    <script src="day16.js"></script>
+
+</body>
+</html>
