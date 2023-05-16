@@ -1,0 +1,66 @@
+body{
+    color: aliceblue ;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 4fr;
+    grid-template-rows: 2fr 1fr 4fr 1fr;
+}
+
+div{
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.red{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.black{
+    background-color: black;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.beige{
+    background-color: beige;
+}
+
+.yellow{
+    background-color: yellow;
+}

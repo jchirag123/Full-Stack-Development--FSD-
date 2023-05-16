@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat';
+    background-color: burlywood;
+}
+
+.price-container{
+    display:flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-box{
+    text-align: center;
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.title{
+    color: blue;
+}
+
+.add-to-cart{
+    background-color: brown;
+    text-decoration: none;
+}
+        
+
+/*Features*/
+.feature{
+    text-align: left;
+}
